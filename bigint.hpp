@@ -33,8 +33,6 @@ class bigint {
         bigint timesDigit(int) const;
         bigint times10(int) const;
         bigint operator*(const bigint&) const;
-
-        bigint factorial() const;
     ;
 
     private:
